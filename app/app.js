@@ -21,7 +21,7 @@ app.use(morgan('dev'));
 
 // Ruta de inicio
 app.get('/', (req, res) => {
-    res.send({ message: 'Hello Worldongo' });
+    res.send({ message: 'Hello World' });
 });
 
 // Rutas de la API
